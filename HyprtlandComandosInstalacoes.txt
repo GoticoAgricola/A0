@@ -1,0 +1,28 @@
+shift fn ESC = " 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+sudo pacman -Syu
+
+sudo pacman -S ttf-dejavu noto-fonts noto-fonts-emoji ttf-liberation (fontes)
+
+sudo pacman -S gst-libav gst-plugins-bad gst-plugins-good gst-plugins-ugly ffmpeg gstreamer (CODEKS audio+video)
+
+sudo pacman -S hyprland kitty
+
+sudo pacman -S xdg-desktop-portal xdg-desktop-portal-hyprland (portais)
+
+sudo pacman -S zsh
+
+sudo pacman -S micro ou geany ou code ( editar textos )
+
+sudo pacman -S zip unzip p7zip unrar tar gzip (compactar descompactar "FAMIGERADO WINRAR mas não é")
+
+sudo pacman -S --needed dolphin Firefox flatpak ( gerenciador de arquivos / navegador / instalador de programas )
+
+sudo pacman -S amd-ucode ( att AMD )
+
+sudo pacman -S wofi ( lançador de aplicativos )
+
+sudo pacman -S
+
+
