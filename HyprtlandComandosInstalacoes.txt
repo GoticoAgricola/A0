@@ -1,3 +1,5 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Instalaçao minima =  pacman -S [NOME DO SO: EX PLASMA] [NOME DO GERENCIADOR DE ARQUIVOS:EX DOLPHIN] [NOME DO TERMIBAL:EX KONSOLE] e pronto. [SEM COLCHETES]
 shift fn ESC = " 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -24,6 +26,7 @@ sudo pacman -S amd-ucode ( att AMD )
 sudo pacman -S wofi ( lançador de aplicativos )
 
 sudo pacman -S
+
 
 
 
