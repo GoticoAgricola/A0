@@ -13,7 +13,7 @@ sudo pacman -S xdg-desktop-portal xdg-desktop-portal-hyprland (portais)
 
 sudo pacman -S zsh
 
-sudo pacman -S micro ou geany ou code ( editar textos )
+sudo pacman -S micro ou geany ou code ou kate ( editar textos )
 
 sudo pacman -S zip unzip p7zip unrar tar gzip (compactar descompactar "FAMIGERADO WINRAR mas não é")
 
@@ -24,5 +24,6 @@ sudo pacman -S amd-ucode ( att AMD )
 sudo pacman -S wofi ( lançador de aplicativos )
 
 sudo pacman -S
+
 
 
