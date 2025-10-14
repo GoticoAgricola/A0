@@ -1,0 +1,43 @@
+{
+  "looting": {
+    "items": [
+
+    ],
+    "maxDanger": 10,
+    "minCapacity": 100,
+    "containers": [
+
+    ],
+    "everyItem": false
+  },
+  "targeting": [
+    {
+      "danger": 1,
+      "keepDistance": false,
+      "lureCount": 0,
+      "lureCavebot": false,
+      "avoidAttacks": false,
+      "keepDistanceRange": 1,
+      "lure": false,
+      "name": "*",
+      "maxDistance": 10,
+      "chase": true,
+      "priority": 1,
+      "regex": "^.*$"
+    },
+    {
+      "danger": 1,
+      "keepDistance": false,
+      "lureCount": 1,
+      "lureCavebot": false,
+      "avoidAttacks": false,
+      "keepDistanceRange": 1,
+      "lure": false,
+      "name": "Samurai Boss",
+      "maxDistance": 10,
+      "chase": true,
+      "priority": 1,
+      "regex": "^samurai boss$"
+    }
+  ]
+}

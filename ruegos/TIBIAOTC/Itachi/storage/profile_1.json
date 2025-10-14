@@ -1,0 +1,212 @@
+{
+  "timers": {
+    "time": 1
+  },
+  "autoHelpMessage": "hi",
+  "foodItems": [
+    {
+      "id": 3582,
+      "count": 6
+    }
+  ],
+  "isUsing": false,
+  "ingame_hotkeys": "macro(1, 'virar target', function()\n if not g_game.isAttacking() then return end\n local tt = g_game.getAttackingCreature()\n local tx = tt:getPosition().x\n local ty = tt:getPosition().y\n local dir = player:getDirection()\n local tdx = math.abs(tx-pos().x)\n local tdy = math.abs(ty-pos().y)\n if (tdy >= 2 and tdx >= 2) or tdx > 7 or tdy > 7 then return end \n if tdy >= tdx then\n  if ty > pos().y then\n   if dir ~= 2 then\n    return turn(2)\n   end\n  else\n   if dir ~= 0 then\n    return turn(0)\n   end\n  end\n else\n  if tx > pos().x then\n   if dir ~= 1 then\n    return turn(1)\n   end\n  else\n   if dir ~= 3 then\n    return turn(3)\n   end\n  end\n end\nend)\n\nlocal healingSpell = 'otsutsuki regeneration'\nlocal hpPercent = 90\nmacro(50, \"faster healing\",  function()\n  if (hppercent() <= hpPercent) then\n    say(healingSpell) \n  end\nend)\n\n\n\nlocal dash, distancia = false, 2\naddIcon(\"SetOnOff\", {item={id=10765, count=1}, switchable=true}, function(widget, enabled)\n  if enabled then dash = true else dash = false end\nend)\n\naddIcon(\"SetDistance\", {text=\"Dist = \"..distancia, switchable=true}, function(widget, enabled)\n  distancia = (distancia == 7 and 2 or distancia + 1)\n  info(distancia)\nend)\n\nonKeyPress(function(keys)\n    local c = {\n        ['W'] = {0, -5}, ['D'] = {5, 0}, ['S'] = {0, 5}, ['A'] = {-5, 0},\n        ['Up'] = {0, -5}, ['Right'] = {5, 0}, ['Down'] = {0, 5}, ['Left'] = {-5, 0},\n    }\n    if dash and c[keys] ~= nil then\n        local posJogador = player:getPosition()\n        posJogador.x = posJogador.x + c[keys][1]\n        posJogador.y = posJogador.y + c[keys][2]\n        local verificarPiso = g_map.getTile(posJogador)\n        if verificarPiso then\n            local usarDash = verificarPiso:getTopUseThing()\n            if usarDash then\n                g_game.use(usarDash)\n            end\n        end\n    end\nend)\nUI.Separator()\n\nmacro(3000, \"Buff Macro\", function()\n  say(\"Kurama Protection\")\nend)\nmacro(3000, \"Buff 2 Macro\", function()\n  say(\"Baryon Mode\")\nend)\n\nlocal chakradown1 = 'Chakra rest' -- nome da magia\nlocal manaPercent = 80 -- porcentagem de mana\nmacro(2000, \"Chakra rest 80\", function()\nif (manapercent() <= manaPercent) then \n    say(chakradown1) \n end \nend)\n\n\n\n\n\n",
+  "Combo1Text": "Katon Fenix Gouenkyuu",
+  "buff2": "",
+  "manatrainer": {
+    "max": 40,
+    "title": "mana%",
+    "min": 0,
+    "on": false,
+    "text": "power down"
+  },
+  "autoHealthItemPanel2": {
+    "max": 65,
+    "enabled": false,
+    "min": 0,
+    "item": 3028
+  },
+  "advancedFriendHealer": {
+    "spellHeal": true,
+    "minFriendHp": 40,
+    "id": 3160,
+    "spellName": "exura sio",
+    "distance": 8,
+    "itemHeal": true,
+    "minMana": 60
+  },
+  "Combo5Text": "",
+  "autoTradeMessage": "",
+  "autoHealthItemPanel1": {
+    "max": 100,
+    "enabled": false,
+    "min": 0,
+    "item": 10718
+  },
+  "combobot": {
+    "attackSpellEnabled": false,
+    "attackLeaderTargetEnabled": false,
+    "shootLeader": "",
+    "onCastEnabled": false,
+    "followLeaderEnabled": false,
+    "serverTriggers": true,
+    "commandsEnabled": true,
+    "onSayEnabled": false,
+    "attack": "",
+    "enabled": false,
+    "spell": "",
+    "onShootEnabled": false,
+    "attackItemToggle": false,
+    "serverLeaderTarget": false,
+    "serverEnabled": false,
+    "sayPhrase": "",
+    "item": 3155,
+    "serverLeader": "",
+    "sayLeader": "",
+    "follow": "",
+    "castLeader": ""
+  },
+  "_macros": {
+    "": false,
+    "Attack leader's target": false,
+    "Chakra rest 80": true,
+    "Buff": true,
+    "Tsukuyomi % HP": false,
+    "Auto Haste": true,
+    "Anti-Push": false,
+    "Sense Target": false,
+    "Anti Paralyze": true,
+    "Combo": true,
+    "Msg trade": false,
+    "Buff 1": false,
+    "Massuguna Macro": false,
+    "Follow": false,
+    "Eat Food": false,
+    "Buff 2 Macro": false,
+    "Auto Loot Look": false,
+    "EXECUTE % HP": false,
+    "faster healing": true,
+    "Combo Safe Hunt": false,
+    "Dance": false,
+    "Chakra rest 50": true,
+    "Bug Map": false,
+    "virar target": false,
+    "Chakra Defense": true,
+    "Monstro Hp %": false,
+    "Izanami % HP": false,
+    "Auto Summons": false,
+    "Magia % de mana": true,
+    "Buff Macro": false,
+    "Follow Attack": false,
+    "Auto Save": false,
+    "Money": true
+  },
+  "Combo3Text": "Iatsu Sharingan",
+  "ingame_hotkeys2": "local castBelowHp = 60-- % HP \nlocal deactiveBelowMana = 50-- % MANA\nmacro(99, \"Chakra Defense\",  function()\n  if (hppercent() <= castBelowHp and manapercent() >= deactiveBelowMana and not hasManaShield()) then\n    say('chakra defense')\n  end\n  if (manapercent() <= deactiveBelowMana and  hppercent() >= castBelowHp and hasManaShield()) then\n      say('Kai')\n  end\nend)\n\n----------\n\n\nmacro(100, \"Combo Safe Hunt\",  function() -- editar nome do macro\nlocal distancia = 15 -- distancia de verificacao\nlocal nomeDaSpellAOE1 = \"Boryoku-tekina inazuma yoko\"\nlocal nomeDaSpellAOE2 = \"Boryoku-tekina inazuma yoko\"\nlocal nomeDaSpellSingle1 = \"Kuroi inazuma\"\nlocal nomeDaSpellSingle2 = \"Kuroi inazuma\"\nlocal playerOnScreen = fse\n    if not g_game.isAttacking() then\n        return\n\n    end\n\n    for i,mob in ipairs(getSpectators()) do\n        if (getDistanceBetween(player:getPosition(), mob:getPosition())  <= distancia and mob:isPlayer()) and (player:getName() ~= mob:getName()) then\n         playerOnScreen = true\n\n end\n\nend\n\n     if not playerOnScreen then \n      say(nomeDaSpellAOE1)\n   elseif playerOnScreen then \n      say(nomeDaSpellSingle1)\n      say(nomeDaSpellSingle2)\n \n    end\n\n end)\n\n\nmacro(100, \"Izanami % HP\", function()   if g_game.isAttacking() and g_game.getAttackingCreature():isPlayer() and g_game.getAttackingCreature():getHealthPercent() < 60 then\n        say(\"Izanami\")  \n    end \nend)\nmacro(100, \"Tsukuyomi % HP\", function()   if g_game.isAttacking() and g_game.getAttackingCreature():isPlayer() and g_game.getAttackingCreature():getHealthPercent() < 99 then\n        say(\"Tsukuyomi no jutsu\")  \n    end \nend)\n\n\nlocal revidar = false\naddSwitch(\"revidar\", \"revidar\", function(widget)\n    revidar = not revidar\n    widget:setOn(revidar)\nend)\n\nonTextMessage(function(mode, text)\n  if revidar == true and not g_game.getAttackingCreature() and string.find(text, \"You lose\") then\n    local targetName = string.sub(text, string.find(text, \" [^ ]*$\") + 1, #text - 1)\n  local target = getPlayerByName(targetName)\nif target then\n  g_game.attack(target)\nend\n  end\nend)\n\n\nlocal summons = {\n    \"Karasu Bunshin\",\n}\n\nlocal summonActive = false -- começa desativado\n\nfunction isSummonOnScreen(name)\n    for _, spec in ipairs(getSpectators()) do\n        if not spec:isPlayer() and spec:getName() == name then\n            return true\n        end\n    end\n    return false\nend\n\n-- tecla para ligar/desligar o auto summon\nonKeyPress(function(keys)\n    if keys == \"F1\" then -- você pode trocar a tecla\n        summonActive = not summonActive\n        if summonActive then\n            info(\"Auto Summons: ON\")\n        else\n            info(\"Auto Summons: OFF\")\n            say(\"kai\") -- fala \"kai\" quando desliga\n        end\n    end\nend)\n\nmacro(100, \"Auto Summons\", function()\n    if not summonActive then return end\n\n    for _, name in ipairs(summons) do\n        if not isSummonOnScreen(name) then\n            say(name)\n        end\n    end\nend)\n\nPanels.AttackLeaderTarget(batTab)\naddSeparator(\"sep\", batTab)\n\n\n",
+  "ComboText": "Susanoo Noshuku",
+  "Combo4Text": "",
+  "clearing": false,
+  "_configs": {
+    "cavebot_configs": {
+      "selected": "SAmurai",
+      "enabled": false
+    },
+    "targetbot_configs": {
+      "enabled": false,
+      "selected": "others"
+    }
+  },
+  "autoHasteText": "Concentrate Chakra Feet",
+  "healing4": {
+    "max": 40,
+    "title": "HP%",
+    "min": 0,
+    "on": true,
+    "text": "Karasuamatsukami"
+  },
+  "attackLeader": "Bumbum Malhado",
+  "autofollow": {
+    "player": "Bumbum Malhado"
+  },
+  "_icons": {
+    "SetDistance": {
+      "y": 0.066105769230769,
+      "enabled": false,
+      "x": 0.39593114241002
+    },
+    "SetOnOff": {
+      "y": 0.09375,
+      "enabled": false,
+      "x": 0.44679186228482
+    },
+    "buffz": {
+      "y": 0.072115384615385,
+      "enabled": true,
+      "x": 0.4866979655712
+    },
+    "Buff": {
+      "y": 0.3099297893681,
+      "enabled": false,
+      "x": 0.49144385026738
+    },
+    "Combo": {
+      "y": 0.069711538461538,
+      "enabled": true,
+      "x": 0.56807511737089
+    },
+    "Sense": {
+      "y": 0.069711538461538,
+      "enabled": false,
+      "x": 0.52582159624413
+    }
+  },
+  "autoAntiParalyzeText": "Concentrate Chakra Feet",
+  "alarms": {
+    "playerDetected": false,
+    "creatureDetected": false,
+    "playerDetectedLogout": false,
+    "playerAttack": true,
+    "manaBelow": false,
+    "healthBelow": true,
+    "manaValue": 50,
+    "enabled": false,
+    "healthValue": 85,
+    "privateMessage": true
+  },
+  "autoManaItemPanel1": {
+    "max": 15,
+    "item": 3028,
+    "min": 0,
+    "enabled": false
+  },
+  "playerList": {
+    "enemyList": [
+
+    ],
+    "outfits": false,
+    "groupMembers": true,
+    "blackList": [
+
+    ],
+    "marks": false,
+    "friendList": [
+
+    ]
+  },
+  "buff": "Fuumetsu Susanoo",
+  "autoHealthPanel1": {
+    "max": 95,
+    "item": 266,
+    "enabled": false,
+    "min": 0,
+    "text": "otsutsuki regeneration"
+  },
+  "Combo2Text": "Amaterasuu",
+  "healing3": {
+    "max": 100,
+    "title": "HP%",
+    "min": 0,
+    "on": false,
+    "text": "chakra rest"
+  }
+}
