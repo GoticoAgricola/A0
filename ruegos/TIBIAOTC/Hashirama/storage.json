@@ -1,0 +1,472 @@
+{
+  "Minera Ai": [
+    {
+      "exhaustTime": 0,
+      "totalExhaust": 3000,
+      "texto": "Stack",
+      "magia": "Shunshin",
+      "totalAtivo": 0,
+      "activeTime": 0
+    }
+  ],
+  "cidade4": "Cidade 4",
+  "magiaalvo": "Nome da magia",
+  "TimeRemain": 0,
+  "attacked": [
+
+  ],
+  "cidade5": "Cidade 5",
+  "cidade8": "Cidade 8",
+  "cidades5": "Cidade 5",
+  "viaje": [
+
+  ],
+  "cidade9": "Cidade 9",
+  "chakrares": "Nome da magia",
+  "manatrainer": {
+    "max": 90,
+    "title": "mana%",
+    "on": false,
+    "min": 0,
+    "text": "Power Down"
+  },
+  "Combo": {
+    "spellzTablez": [
+      {
+        "areas": "Jutsushiki Junten",
+        "index": 1,
+        "valuez": "",
+        "enabled": true,
+        "spellz": "Jutsushiki Junten",
+        "originz": "COMBO"
+      },
+      {
+        "areas": "Shutsuryoku Saidai",
+        "index": 2,
+        "valuez": "",
+        "enabled": true,
+        "spellz": "Shutsuryoku Saidai",
+        "originz": "COMBO"
+      },
+      {
+        "areas": "Kyoshiki Murasaki",
+        "index": 3,
+        "valuez": "",
+        "enabled": true,
+        "spellz": "Kyoshiki Murasaki",
+        "originz": "COMBO"
+      },
+      {
+        "areas": "Mukagen Mugen",
+        "index": 4,
+        "valuez": "",
+        "enabled": true,
+        "spellz": "Mukagen Mugen",
+        "originz": "COMBO"
+      }
+    ],
+    "enabled": false,
+    "checkboxz": false
+  },
+  "cidade": [
+
+  ],
+  "autoEatingPanel1": {
+    "items": [
+      3725,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "cidade6": "Cidade 6",
+  "autoAntiParalyzeText": "utani hur",
+  "autoTradeMessage": "hi ",
+  "cidade7": "Cidade 7",
+  "cidades8": "Cidade 8",
+  "_macros": {
+    "": false,
+    "Sense Target": false,
+    "Trocar arma, Dist/perto": false,
+    "Cronometro": false,
+    "FULL MYSTIC": true,
+    "Bug Map": true,
+    "Combo": true,
+    "Ativar": true,
+    "..::Combo Crimson::..": true,
+    "Auto Haste": true,
+    "Combo UP": false,
+    "Buff": true,
+    " MAGIA 2 DE TIRO": false
+  },
+  "Combo3Text": "magia 4",
+  "lootluiz": {
+    "lootChannel": true,
+    "customPrices": [
+
+    ],
+    "trackedLoot": [
+
+    ],
+    "trackedBoss": [
+
+    ],
+    "outfits": [
+
+    ],
+    "rarityFrames": true
+  },
+  "ComboText": "magia 1",
+  "cidades4": "Cidade 4",
+  "Combo4Text": "magia 5",
+  "_icons": {
+    "teste": {
+      "y": 0.05,
+      "x": 0.01,
+      "enabled": true
+    },
+    "Sense": {
+      "y": 0.85,
+      "x": 0.01,
+      "enabled": false
+    },
+    "Combo": {
+      "y": 0.16844349680171,
+      "x": 0.05531453362256,
+      "enabled": true
+    },
+    "Buff": {
+      "y": 0.05,
+      "x": 0.01,
+      "enabled": true
+    },
+    "sensew": {
+      "y": 0.65,
+      "x": 0.01,
+      "enabled": false
+    },
+    "UP": {
+      "y": 0.050387596899225,
+      "x": 0.081344902386117,
+      "enabled": false
+    }
+  },
+  "cidade1": "Cidade 1",
+  "autofollow": {
+    "player": "name"
+  },
+  "zz": {
+    "xxx": "2804:431"
+  },
+  "autoManaItemPanel1": {
+    "max": 80,
+    "item": 0,
+    "min": 0,
+    "enabled": true
+  },
+  "jumpuplocal1": "F10",
+  "Combo5Text": "magia 6",
+  "healing3": {
+    "max": 80,
+    "title": "HP%",
+    "on": false,
+    "min": 0,
+    "text": "fuga"
+  },
+  "healing6": {
+    "max": 30,
+    "title": "HP%",
+    "on": false,
+    "min": 0,
+    "text": "fuga"
+  },
+  "cidades9": "Cidade 9",
+  "autoHelpMessage": "hi",
+  "monsterKill": {
+    "min": false
+  },
+  "healbot2": {
+    "spellTable": [
+
+    ],
+    "enabled": false,
+    "itemTable": [
+
+    ]
+  },
+  "escadaid": "Space",
+  "killSteal": {
+    "setting": true,
+    "enabled": false,
+    "hp": 20,
+    "id": 3070
+  },
+  "drop": [
+    3031,
+    3035
+  ],
+  "dist": "id",
+  "timers": {
+    "time": 1
+  },
+  "sensey": "0",
+  "melee": "id",
+  "listt": [
+
+  ],
+  "Combo2Text": "magia 3",
+  "Combo1Text": "magia 2",
+  "stack": "Nome da magia",
+  "buff2": "",
+  "jumpuplocal2": "F11",
+  "isUsing": false,
+  "autoEquipItem2": {
+    "slot": 1
+  },
+  "healbot": {
+    "spellTable": [
+
+    ],
+    "enabled": false,
+    "potenabled": true,
+    "itemTable": [
+      {
+        "enabled": true,
+        "value": 90,
+        "index": 1,
+        "item": 15266,
+        "origin": "MP",
+        "sign": "<"
+      },
+      {
+        "enabled": true,
+        "value": 90,
+        "index": 2,
+        "item": 15266,
+        "origin": "HP",
+        "sign": "<"
+      }
+    ]
+  },
+  "magiaatalho": "!jutsu",
+  "cidades6": "Cidade 6",
+  "musicas": [
+
+  ],
+  "magiamana": "Nome da magia",
+  "stopcave": "Shift+Space",
+  "_configs": {
+    "cavebot_configs": {
+      "enabled": true,
+      "selected": "cave_500"
+    },
+    "targetbot_configs": {
+      "enabled": true,
+      "selected": "others"
+    }
+  },
+  "advancedFriendHealer": {
+    "itemHeal": true,
+    "minFriendHp": 40,
+    "id": 3160,
+    "spellName": "exura sio",
+    "distance": 8,
+    "spellHeal": true,
+    "minMana": 60
+  },
+  "jumps": [
+
+  ],
+  "autoEquipItem1": {
+    "item1": 3052,
+    "slot": 9,
+    "item2": 3089
+  },
+  "followLeader": "player name",
+  "cidades7": "Cidade 7",
+  "foodItems": [
+    {
+      "count": 1,
+      "id": 3582
+    },
+    {
+      "count": 1,
+      "id": 3577
+    }
+  ],
+  "cidades2": "Cidade 2",
+  "id": 268683307,
+  "staminaItemsUser": {
+    "max": 38,
+    "items": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "min": 25
+  },
+  "extras": {
+    "mana": 99,
+    "monstrovida": true,
+    "reta": false,
+    "followz": false,
+    "bagprincipal": false,
+    "stackk": 7,
+    "summon": false,
+    "others": false,
+    "dance": false,
+    "jamm": true,
+    "antipushh": false,
+    "escadd": true,
+    "autoOpenDoors": false,
+    "juntaritens": false,
+    "dashkunai": false,
+    "esconderspr": false,
+    "title": true,
+    "lootlook": false,
+    "reUse": false,
+    "ptinvite": false,
+    "jump": false,
+    "followr": false,
+    "separatePm": false,
+    "jumpseta": false,
+    "chase": false,
+    "bagpe": false,
+    "hpmagia": false,
+    "hpmagiaalvo": 100,
+    "chakra": 1000,
+    "bagcheia": false,
+    "height": 413,
+    "stack": false,
+    "bugmap": false,
+    "colorir": true,
+    "bless": true,
+    "kunai": 2475,
+    "chakrarest": false,
+    "manat": false,
+    "hptarget": false,
+    "limpartexto": false,
+    "moneyconverter": false,
+    "treinar": false,
+    "ptaceitar": false
+  },
+  "jumpuplocal": "F12",
+  "lootStatus": "",
+  "cidades1": "Cidade 1",
+  "autoHasteText": "Concentrate Chakra Feet",
+  "cidades3": "Cidade 3",
+  "ingame_hotkeys2": "macro(6000, \"FULL MYSTIC\" , function()   say('Mystic Defense')  end)\n\nteste = addIcon(\"teste\", {item =1949, text = \"..::Combo::..\"},\nmacro(200, \"..::Combo Crimson::..\", function() \n\n  if g_game.isAttacking() then\n    if not modules.corelib.g_keyboard.isKeyPressed('1') then\n   say('Unlimited Void')\n   \n\n   \n\n\n    end \nend\nend))\nteste:breakAnchors()\nteste:move(50, 40)\n\nlocal revidar = false\naddSwitch(\"revidar\", \"revidar\", function(widget)\n revidar = not revidar\n  widget:setOn(revidar)\nend)\n\nonTextMessage(function(mode, text)\n if g_game.isAttacking() and g_game.getAttackingCreature():isPlayer() then\n  return\n elseif not revidar then\n  return\n elseif not text:lower():find('you lose') then \n  return\n end\n for _, x in ipairs(getSpectators(posz())) do\n  if x:isPlayer() and string.match(text, 'due to an attack by ' .. x:getName() .. '.') then\n   g_game.attack(x)\n   break\n  end\n end\nend)",
+  "jewelleryEquipper": {
+    "pzCheck": true,
+    "valueAmmy": false,
+    "ringMin": 30,
+    "ammyMin": 30,
+    "ringMax": 80,
+    "valueRing": false,
+    "ringId": 3048,
+    "ammySwitch": true,
+    "ringValue": "HP",
+    "ammyId": 3081,
+    "ringSwitch": true,
+    "ammyMax": 80,
+    "ammyValue": "HP"
+  },
+  "autoHealthItemPanel1": {
+    "max": 60,
+    "item": 266,
+    "min": 0
+  },
+  "summonmagia": "Nome da magia",
+  "healing5": {
+    "max": 50,
+    "title": "HP%",
+    "on": false,
+    "min": 0,
+    "text": "fuga"
+  },
+  "afkMsg": "MENSAGEM",
+  "ingame_hotkeys": "local combo \nmacro(30, \" MAGIA 2 DE TIRO\", function()\nif g_game.isAttacking() then\nsay(' Infinity Destruction ')\nend\nend)\n\nlocal combo \nmacro(30, \" MAGIA DE AREA\", function()\nif g_game.isAttacking() then\nsay(' Dark full Destruction ')\nend\nend)\n\n\n\nmacro(1000, \"Follow\", function()\n  if g_game.isFollowing() then\n    return\n  end\n  local getFollowCreature = getCreatureByName(storage.followLeader)\n  if getFollowCreature then\n    g_game.follow(getFollowCreature)\n  end\nend)\naddTextEdit(\"followleader\", storage.followLeader or \"player name\", function(widget, text)\n  storage.followLeader = text\nend) \n\nUI.Button(\"PAUSE\", function()\n  if TargetBot.isOff() or CaveBot.isOff() then\n    CaveBot.setOn()\n    TargetBot.setOn()\n  else\n    CaveBot.setOff()\n    TargetBot.setOff()\n  end\nend)\n\n\nlocal function checkPos(x, y)\n xyz = g_game.getLocalPlayer():getPosition()\n xyz.x = xyz.x + x\n xyz.y = xyz.y + y\n tile = g_map.getTile(xyz)\n if tile then\n  return g_game.use(tile:getTopUseThing())\n else\n  return false\n end\nend\n\nmacro(1, \"OTHERS MOBILE\", function() \n  local battlelist = getSpectators();\n  local closest = 10\n  local lowesthpc = 101\n  for key, val in pairs(battlelist) do\n    if val:isMonster() then\n      if getDistanceBetween(player:getPosition(), val:getPosition()) <= closest then\n        closest = getDistanceBetween(player:getPosition(), val:getPosition())\n        if val:getHealthPercent() < lowesthpc then\n          lowesthpc = val:getHealthPercent()\n        end\n      end\n    end\n  end\n  for key, val in pairs(battlelist) do\n    if val:isMonster() then\n      if getDistanceBetween(player:getPosition(), val:getPosition()) <= closest then\n        if g_game.getAttackingCreature() ~= val and val:getHealthPercent() <= lowesthpc then \n          g_game.attack(val)\n     delay(200)\n          break\n        end\n      end\n    end\n  end\nend)",
+  "pktimee": "15",
+  "Combo6Text": "magia 7",
+  "summonnome": "Nome do Summon",
+  "healing4": {
+    "max": 70,
+    "title": "HP%",
+    "on": false,
+    "min": 0,
+    "text": "fuga"
+  },
+  "autoHealthItemPanel2": {
+    "max": 60,
+    "item": 0,
+    "min": 0,
+    "enabled": true
+  },
+  "autoHealthPanel1": {
+    "max": 80,
+    "item": 266,
+    "enabled": true,
+    "min": 20,
+    "text": "Big Regeneration"
+  },
+  "cidade2": "Cidade 2",
+  "dropItems": [
+    {
+      "count": 1,
+      "id": 283
+    },
+    {
+      "count": 1,
+      "id": 284
+    },
+    {
+      "count": 1,
+      "id": 285
+    }
+  ],
+  "cidade3": "Cidade 3",
+  "alarms": {
+    "playerDetected": false,
+    "creatureDetected": false,
+    "playerDetectedLogout": false,
+    "playerAttack": false,
+    "healthValue": 40,
+    "healthBelow": false,
+    "manaBelow": false,
+    "messageText": "",
+    "manaValue": 50,
+    "enabled": false,
+    "privateMessage": false,
+    "bossName": ""
+  },
+  "playerList": {
+    "enemyList": [
+
+    ],
+    "outfits": false,
+    "friendList": [
+
+    ],
+    "groupMembers": true,
+    "blackList": [
+
+    ],
+    "marks": false
+  },
+  "buff": "Jujutsu Protect",
+  "Rangers": [
+    {
+      "exhaustTime": 0,
+      "totalExhaust": 3000,
+      "texto": "Stack",
+      "magia": "Shunshin",
+      "totalAtivo": 0,
+      "activeTime": 0
+    }
+  ],
+  "sensex": "0",
+  "jumpuplocal3": "Delete"
+}

@@ -1,0 +1,71 @@
+{
+  "looting": {
+    "items": [
+
+    ],
+    "maxDanger": 10,
+    "minCapacity": 100,
+    "containers": [
+
+    ],
+    "everyItem": false
+  },
+  "targeting": [
+    {
+      "danger": 1,
+      "keepDistance": false,
+      "lureCount": 2,
+      "lureCavebot": true,
+      "avoidAttacks": false,
+      "keepDistanceRange": 5,
+      "lure": true,
+      "name": "Dual Slayer Kage Guard",
+      "maxDistance": 10,
+      "chase": false,
+      "priority": 1,
+      "regex": "^dual slayer kage guard$"
+    },
+    {
+      "danger": 1,
+      "keepDistance": false,
+      "lureCount": 2,
+      "lureCavebot": true,
+      "avoidAttacks": false,
+      "keepDistanceRange": 1,
+      "lure": true,
+      "priority": 1,
+      "maxDistance": 10,
+      "chase": false,
+      "name": "Unknown Ninja",
+      "regex": "^unknown ninja$"
+    },
+    {
+      "danger": 1,
+      "keepDistance": false,
+      "lureCount": 2,
+      "lureCavebot": true,
+      "avoidAttacks": false,
+      "keepDistanceRange": 1,
+      "lure": true,
+      "priority": 1,
+      "maxDistance": 10,
+      "chase": false,
+      "name": "akahoshi",
+      "regex": "^akahoshi$"
+    },
+    {
+      "danger": 1,
+      "keepDistance": false,
+      "lureCount": 1,
+      "lureCavebot": false,
+      "avoidAttacks": false,
+      "keepDistanceRange": 1,
+      "lure": false,
+      "name": "Samurai Boss",
+      "maxDistance": 10,
+      "chase": true,
+      "priority": 1,
+      "regex": "^samurai boss$"
+    }
+  ]
+}

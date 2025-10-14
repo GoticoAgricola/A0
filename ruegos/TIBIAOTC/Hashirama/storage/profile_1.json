@@ -1,0 +1,617 @@
+{
+  "Renegat": [
+    {
+      "exhaustTime": 0,
+      "totalExhaust": 3000,
+      "magia": "Shunshin",
+      "texto": "Stack",
+      "totalAtivo": 0,
+      "activeTime": 0
+    }
+  ],
+  "iconbuff6": false,
+  "Gelo Seco": [
+    {
+      "exhaustTime": 0,
+      "totalExhaust": 3000,
+      "magia": "Shunshin",
+      "texto": "Stack",
+      "totalAtivo": 0,
+      "activeTime": 0
+    }
+  ],
+  "magiaalvo": "sss",
+  "TimeRemain": 0,
+  "sense": "nome",
+  "attacked": [
+
+  ],
+  "cidade5": "Cidade 5",
+  "cidade8": "Cidade 8",
+  "cidades5": "Cidade 5",
+  "viaje": [
+
+  ],
+  "iconbuff3": false,
+  "cidade9": "Cidade 9",
+  "chakrares": "Nome da magia",
+  "manatrainer": {
+    "max": 99,
+    "title": "mana%",
+    "on": false,
+    "min": 0,
+    "text": "Power Down"
+  },
+  "autoHealthItemPanel2": {
+    "max": 60,
+    "item": 3029,
+    "min": 0,
+    "enabled": false
+  },
+  "cidade": [
+
+  ],
+  "autoEatingPanel1": {
+    "items": [
+      3725,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "cidade6": "Cidade 6",
+  "summonmagia": "Nome da magia",
+  "autoAntiParalyzeText": "concentrate chakra feet",
+  "autoTradeMessage": "",
+  "cidades2": "Cidade 2",
+  "Akane II": [
+    {
+      "exhaustTime": 0,
+      "totalExhaust": 3000,
+      "texto": "Stack",
+      "magia": "Shunshin",
+      "totalAtivo": 0,
+      "activeTime": 0
+    }
+  ],
+  "cidades6": "Cidade 6",
+  "cidades7": "Cidade 7",
+  "isUsing": false,
+  "Zeldris": [
+    {
+      "exhaustTime": 0,
+      "totalExhaust": 3000,
+      "magia": "Shunshin",
+      "texto": "Stack",
+      "totalAtivo": 0,
+      "activeTime": 0
+    }
+  ],
+  "cidades8": "Cidade 8",
+  "_macros": {
+    "": false,
+    "Chicletinho YELLOW (HP%)": false,
+    "ENEMY": true,
+    "Auto Haste": false,
+    "Hold Target": false,
+    "Anti-Push": false,
+    "Chicletinho PK": false,
+    "Summon": false,
+    "Sense Target": false,
+    "Anti Paralyze": false,
+    "Enemy": false,
+    "Combo": false,
+    "BUFFS": true,
+    "esconder msg laranja": true,
+    "Atacar Seguindo": true,
+    "Dance": false,
+    "Eat Food": false,
+    "Buff 2 Macro": true,
+    "attack enemy": true,
+    "Target": true,
+    "Ativar": false,
+    "Chicletinho": false,
+    "Stop Cave/target": false,
+    "STAMINA POTION": true,
+    "Vocation Summon": true,
+    "Attack LOW HP": true,
+    "Bug Map": false,
+    "Follow Attack": false,
+    "Auto Enemy": false,
+    "Trocar arma, Dist/perto": false,
+    "Target teste": true,
+    "Cronometro": false,
+    "Sense": false,
+    "Chicletinho PK 99 (HP%)": false,
+    "Monstro Hp %": false,
+    "Combo UP": true,
+    "Buff": false,
+    "Hold Target [ESC Cancel]": false,
+    "Buff Macro": true,
+    "Atk Enemy Target": false,
+    "Coletar itens do chão": false,
+    "Chakra Rest": false
+  },
+  "Combo3Text": "",
+  "jewelleryEquipper": {
+    "pzCheck": true,
+    "valueAmmy": false,
+    "ringMin": 30,
+    "ammyMin": 30,
+    "ringMax": 77,
+    "valueRing": false,
+    "ringId": 3048,
+    "ringValue": "HP",
+    "ammyId": 3081,
+    "ammySwitch": true,
+    "ringSwitch": true,
+    "ammyMax": 80,
+    "ammyValue": "HP"
+  },
+  "killSteal": {
+    "setting": true,
+    "enabled": false,
+    "hp": 20,
+    "id": 3070
+  },
+  "autoHasteText": "concentrate chakra feet",
+  "lootluiz": {
+    "lootChannel": true,
+    "customPrices": [
+
+    ],
+    "rarityFrames": true,
+    "trackedBoss": [
+
+    ],
+    "outfits": [
+
+    ],
+    "trackedLoot": [
+
+    ]
+  },
+  "healing4": {
+    "max": 20,
+    "title": "HP%",
+    "on": false,
+    "min": 0,
+    "text": "Kini henshin"
+  },
+  "ComboText": "",
+  "cidades4": "Cidade 4",
+  "Combo4Text": "",
+  "Combo2Text": "",
+  "clearing": false,
+  "stack": "Nome da magia",
+  "_icons": {
+    "SetDistance": {
+      "y": 0.25,
+      "x": 0.01,
+      "enabled": false
+    },
+    "SetOnOff": {
+      "y": 0.05,
+      "x": 0.01,
+      "enabled": false
+    },
+    "Buff": {
+      "y": 0.19236209335219,
+      "x": 0,
+      "enabled": false
+    },
+    "sensew": {
+      "y": 0.25,
+      "x": 0.01,
+      "enabled": false
+    },
+    "Auto PT": {
+      "y": 0.22065063649222,
+      "x": 0.12235294117647,
+      "enabled": false
+    },
+    "Sense": {
+      "y": 0.2970297029703,
+      "x": 0,
+      "enabled": false
+    },
+    "luis": {
+      "y": 0.36067892503536,
+      "x": 0.08,
+      "enabled": true
+    },
+    "Combo": {
+      "y": 0.089108910891089,
+      "x": 0,
+      "enabled": false
+    },
+    "UP": {
+      "y": 0.12036108324975,
+      "x": 0.019251336898396,
+      "enabled": true
+    },
+    "buffz": {
+      "y": 0.27157001414427,
+      "x": 0,
+      "enabled": false
+    }
+  },
+  "moneyItems": [
+    {
+      "count": 1,
+      "id": 3031
+    },
+    {
+      "count": 1,
+      "id": 3035
+    }
+  ],
+  "cidade1": "ilha genbu",
+  "Admin": [
+    {
+      "exhaustTime": 0,
+      "totalExhaust": 3000,
+      "magia": "Shunshin",
+      "texto": "Stack",
+      "totalAtivo": 0,
+      "activeTime": 0
+    }
+  ],
+  "cidades1": "Cidade 1",
+  "summonnome": "Nome do Summon",
+  "zz": {
+    "xxx": "200.106.212.241"
+  },
+  "Combo6Text": "",
+  "autoManaItemPanel1": {
+    "max": 60,
+    "item": 268,
+    "min": 0
+  },
+  "sensex": "0",
+  "escadaid": "Space",
+  "followLeader": "",
+  "iconbuff": false,
+  "healing3": {
+    "max": 35,
+    "title": "HP%",
+    "on": false,
+    "min": 0,
+    "text": "chakra defense"
+  },
+  "timers": {
+    "time": 1
+  },
+  "cidade3": "Cidade 3",
+  "autoHelpMessage": "",
+  "monsterKill": {
+    "min": false
+  },
+  "healbot2": {
+    "spellTable": [
+
+    ],
+    "enabled": false,
+    "itemTable": [
+
+    ]
+  },
+  "foodItems": [
+    {
+      "count": 1,
+      "id": 3582
+    },
+    {
+      "count": 1,
+      "id": 3577
+    }
+  ],
+  "iconhide5": false,
+  "healbot": {
+    "spellTable": [
+      {
+        "spell": "big Regeneration",
+        "origin": "HP",
+        "value": 99,
+        "enabled": true,
+        "index": 1,
+        "sign": "<"
+      }
+    ],
+    "enabled": false,
+    "potenabled": false,
+    "itemTable": [
+      {
+        "item": 3028,
+        "origin": "HP",
+        "sign": "<",
+        "enabled": true,
+        "value": 40,
+        "index": 1
+      }
+    ]
+  },
+  "iconhide": false,
+  "autoHealthItemPanel1": {
+    "max": 70,
+    "item": 3028,
+    "min": 0,
+    "enabled": false
+  },
+  "iconhide6": false,
+  "melee": "id",
+  "listt": [
+
+  ],
+  "magiaatalho": "!jutsu",
+  "Combo1Text": "",
+  "cidades3": "Cidade 3",
+  "buff2": "",
+  "jumpuplocal2": "F11",
+  "iconbuff2": false,
+  "autoEquipItem2": {
+    "slot": 1
+  },
+  "iconbuff4": false,
+  "iconhide8": false,
+  "jumpuplocal1": "F10",
+  "Combo5Text": "",
+  "Akane III": [
+    {
+      "exhaustTime": 0,
+      "totalExhaust": 3000,
+      "texto": "Stack",
+      "magia": "Shunshin",
+      "totalAtivo": 0,
+      "activeTime": 0
+    }
+  ],
+  "stopcave": "Shift+Space",
+  "iconhide3": false,
+  "advancedFriendHealer": {
+    "itemHeal": false,
+    "minFriendHp": 40,
+    "id": 3029,
+    "minMana": 60,
+    "distance": 8,
+    "spellHeal": false,
+    "spellName": "magia de cura"
+  },
+  "jumps": [
+
+  ],
+  "autoEquipItem1": {
+    "item1": 3052,
+    "slot": 9,
+    "item2": 3089
+  },
+  "cidade7": "Cidade 7",
+  "sensey": "0",
+  "staminaItemsUser": {
+    "max": 40,
+    "items": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "min": 40,
+    "enabled": true
+  },
+  "Vem Kk": [
+    {
+      "exhaustTime": 0,
+      "totalExhaust": 3000,
+      "magia": "Shunshin",
+      "texto": "Stack",
+      "totalAtivo": 0,
+      "activeTime": 0
+    }
+  ],
+  "musicas": {
+    "balada": false
+  },
+  "id": 268436480,
+  "extras": {
+    "bless": false,
+    "monstrovida": false,
+    "reta": false,
+    "followz": false,
+    "bagprincipal": false,
+    "stackk": 5,
+    "summon": false,
+    "hpmagia": false,
+    "dance": false,
+    "jamm": false,
+    "antipushh": false,
+    "kunai": 2475,
+    "autoOpenDoors": false,
+    "chakra": 1900,
+    "dashkunai": false,
+    "bugmap": false,
+    "title": false,
+    "lootlook": false,
+    "reUse": false,
+    "height": 360,
+    "jump": false,
+    "followr": false,
+    "separatePm": false,
+    "jumpseta": false,
+    "chase": false,
+    "others": false,
+    "escadd": false,
+    "hpmagiaalvo": 100,
+    "mana": 99,
+    "bagcheia": false,
+    "ptinvite": false,
+    "stack": false,
+    "chakrarest": false,
+    "colorir": false,
+    "bagpe": false,
+    "manat": false,
+    "juntaritens": false,
+    "esconderspr": false,
+    "hptarget": false,
+    "limpartexto": false,
+    "moneyconverter": false,
+    "treinar": false,
+    "ptaceitar": false
+  },
+  "jumpuplocal": "F12",
+  "lootStatus": "",
+  "jumpuplocal3": "Delete",
+  "uniqueVarName": "spell",
+  "healing6": {
+    "max": 50,
+    "title": "HP%",
+    "on": false,
+    "min": 0,
+    "text": "fuga"
+  },
+  "ingame_hotkeys2": "",
+  "dist": "id",
+  "cidade4": "Cidade 4",
+  "Chat De Voz Roblox": [
+    {
+      "exhaustTime": 0,
+      "totalExhaust": 3000,
+      "texto": "Stack",
+      "magia": "Shunshin",
+      "totalAtivo": 0,
+      "activeTime": 0
+    }
+  ],
+  "healing5": {
+    "max": 30,
+    "title": "HP%",
+    "on": false,
+    "min": 0,
+    "text": "Hyaku-gun no insho"
+  },
+  "afkMsg": "",
+  "ingame_hotkeys": "local idz = {10718, 10732} -- adicionar ID dos itens\nmacro(100, \"Coletar itens do chão\", function()\nlocal z = posz()\nfor _, tile in ipairs(g_map.getTiles(z)) do\n    if z ~= posz() then return end\n        if getDistanceBetween(pos(), tile:getPosition()) <= 10 then -- distância que quer coletar\n            if table.find(idz, tile:getTopLookThing():getId()) then\n                g_game.move(tile:getTopLookThing(), {x = 65535, y=SlotBack, z=0}, tile:getTopLookThing():getCount())\n            end\n        end\n    end\nend)\n\n\n\n--[[Esconder Nomes Laranjas da tela]]--\nTH = macro(100, \"esconder msg laranja\", function() end)\nonStaticText(function(thing, text)\n    if TH.isOff() then return end\n    if not text:find('says:') then\n        g_map.cleanTexts()\n    end\nend)\n\n\nmacro(1, 'virar target', function()\n if not g_game.isAttacking() then return end\n local tt = g_game.getAttackingCreature()\n local tx = tt:getPosition().x\n local ty = tt:getPosition().y\n local dir = player:getDirection()\n local tdx = math.abs(tx-pos().x)\n local tdy = math.abs(ty-pos().y)\n if (tdy >= 2 and tdx >= 2) or tdx > 7 or tdy > 7 then return end \n if tdy >= tdx then\n  if ty > pos().y then\n   if dir ~= 2 then\n    return turn(2)\n   end\n  else\n   if dir ~= 0 then\n    return turn(0)\n   end\n  end\n else\n  if tx > pos().x then\n   if dir ~= 1 then\n    return turn(1)\n   end\n  else\n   if dir ~= 3 then\n    return turn(3)\n   end\n  end\n end\nend)\n\nlocal healingSpell = 'otsutsuki regeneration'\nlocal hpPercent = 99\nmacro(50, \"faster healing\",  function()\n  if (hppercent() <= hpPercent) then\n    say(healingSpell) \n  end\nend)\n\n\n\nlocal dash, distancia = false, 2\naddIcon(\"SetOnOff\", {item={id=10765, count=1}, switchable=true}, function(widget, enabled)\n  if enabled then dash = true else dash = false end\nend)\n\naddIcon(\"SetDistance\", {text=\"Dist = \"..distancia, switchable=true}, function(widget, enabled)\n  distancia = (distancia == 7 and 2 or distancia + 1)\n  info(distancia)\nend)\n\nonKeyPress(function(keys)\n    local c = {\n        ['W'] = {0, -5}, ['D'] = {5, 0}, ['S'] = {0, 5}, ['A'] = {-5, 0},\n        ['Up'] = {0, -5}, ['Right'] = {5, 0}, ['Down'] = {0, 5}, ['Left'] = {-5, 0},\n    }\n    if dash and c[keys] ~= nil then\n        local posJogador = player:getPosition()\n        posJogador.x = posJogador.x + c[keys][1]\n        posJogador.y = posJogador.y + c[keys][2]\n        local verificarPiso = g_map.getTile(posJogador)\n        if verificarPiso then\n            local usarDash = verificarPiso:getTopUseThing()\n            if usarDash then\n                g_game.use(usarDash)\n            end\n        end\n    end\nend)\nUI.Separator()\n\nmacro(3000, \"Buff Macro\", function()\n  say(\"Susanoo Protection\")\nend)\nmacro(3000, \"Buff 2 Macro\", function()\n  say(\"Susanoo Kagutsuchi\")\nend)\n\nlocal chakradown1 = 'Chakra rest' -- nome da magia\nlocal manaPercent = 95-- porcentagem de mana\nmacro(2000, \"Chakra rest 95\", function()\nif (manapercent() <= manaPercent) then \n    say(chakradown1) \n end \nend)\n\n\n\n\n\n------------\n\n\nFollow = macro(1000,\"Follow\",function()\n\nnome = storage.followLeader\nend)\n\nUI.Label(\"Follow Player:\")\naddTextEdit(\"playerToFollow\", storage.followLeader or \"Heeey\", function(widget, text)\n    storage.followLeader = text\n    target = tostring(text)\nend)\n\nnome = storage.followLeader\npos_p = player:getPosition()\n\np = getCreatureByName(nome)\n\nonCreaturePositionChange(function(creature, newPos, oldPos)\n    if Follow.isOn() then\n    \n        if creature:getName()==player:getName() and getCreatureByName(nome) == nil and newPos.z>oldPos.z then\n        \n            say('skip')\n            for i = -1,1 do\n              for j = -1,1 do\n            \n                local useTile = g_map.getTile({x=posx()+i,y=posy()+j,z=posz()})\n                 g_game.use(useTile:getTopUseThing())\n                \n            \n              end\n            end\n        end\n        if creature:getName()==nome then\n          \n            \n            if newPos==nil then\n                \n                \n                lastPos = oldPos\n                \n                schedule(200,function()\n                 autoWalk(oldPos)\n                end)\n                \n                schedule(1000,function()\n                    for i = -1,1 do\n                      for j = -1,1 do\n                    \n                        local useTile = g_map.getTile({x=posx()+i,y=posy()+j,z=posz()})\n                        g_game.use(useTile:getTopUseThing())\n                        \n                    \n                      end\n                    end\n                end)\n            \n            \n            end\n            \n            if oldPos.z == newPos.z then\n                     \n                schedule(300,function()\n                 local useTile = g_map.getTile({x=oldPos.x,y=oldPos.y,z=oldPos.z})\n                 topThing = useTile:getTopThing()\n                 \n                 if not useTile:isWalkable() then\n                   use(topThing)\n                 end\n                \n                end)\n            \n            \n                autoWalk({x=oldPos.x,y=oldPos.y,z=oldPos.z})\n            else\n            \n                lastPos = oldPos\n                autoWalk(oldPos)\n                for i = 1,6 do\n                    schedule(i*200,function()\n                      autoWalk(oldPos)\n                    \n                      if getDistanceBetween(pos(), oldPos) == 0 and (posz()>newPos.z and getCreatureByName(nome) == nil) then\n                        say('skip')\n                      end\n                    end)\n                end\n                local useTile = g_map.getTile({x=newPos.x,y=newPos.y-1,z=oldPos.z})\n                 g_game.use(useTile:getTopUseThing())\n                            \n            \n            end\n          \n        \n        end\n    \n    end\nend)\n\n\n\n\n\n\n\n\n\n",
+  "pktimee": "5",
+  "_configs": {
+    "targetbot_configs": {
+      "selected": "others",
+      "enabled": false
+    },
+    "cavebot_configs": {
+      "selected": "SAMURAI",
+      "enabled": false
+    }
+  },
+  "magiamana": "power down",
+  "iconhide2": false,
+  "iconhide7": false,
+  "autoHealthPanel1": {
+    "max": 99,
+    "item": 266,
+    "enabled": true,
+    "min": 0,
+    "text": "otsutsuki regeneration"
+  },
+  "autofollow": {
+    "player": "Lesma Flamejante"
+  },
+  "dropItems": [
+    {
+      "count": 1,
+      "id": 283
+    },
+    {
+      "count": 1,
+      "id": 284
+    },
+    {
+      "count": 1,
+      "id": 285
+    }
+  ],
+  "drop": [
+    3031,
+    3035
+  ],
+  "alarms": {
+    "playerpk": true,
+    "playerDetected": true,
+    "healthBelow": false,
+    "fragz": false,
+    "creatureDetected": false,
+    "manaValue": 39,
+    "playerAttack": false,
+    "playerDetectedLogout": false,
+    "manaBelow": false,
+    "bossName": "",
+    "messageText": "",
+    "healthValue": 50,
+    "enabled": false,
+    "playerAttack2": false,
+    "privateMessage": true
+  },
+  "playerList": {
+    "enemyList": [
+
+    ],
+    "outfits": false,
+    "friendList": [
+
+    ],
+    "blackList": [
+
+    ],
+    "marks": false,
+    "groupMembers": false
+  },
+  "buff": "Senjutsu Kai",
+  "Combo": {
+    "spellzTablez": [
+      {
+        "areas": "Fenikkusufurawatekunikku",
+        "index": 1,
+        "valuez": "",
+        "enabled": true,
+        "spellz": "Fenikkusufurawatekunikku",
+        "originz": "AREA"
+      },
+      {
+        "areas": "Kurohomura no maiso",
+        "index": 2,
+        "valuez": "",
+        "enabled": true,
+        "spellz": "Kurohomura no maiso",
+        "originz": "COMBO"
+      },
+      {
+        "areas": "Fureimurappufaia",
+        "index": 3,
+        "valuez": "",
+        "enabled": true,
+        "spellz": "Fureimurappufaia",
+        "originz": "COMBO"
+      },
+      {
+        "areas": "Indoranoya",
+        "index": 4,
+        "valuez": "",
+        "enabled": true,
+        "spellz": "Indoranoya",
+        "originz": "COMBO"
+      },
+      {
+        "areas": "Hono-Ikazuchi",
+        "index": 5,
+        "valuez": "",
+        "enabled": true,
+        "spellz": "Hono-Ikazuchi",
+        "originz": "COMBO"
+      }
+    ],
+    "enabled": false,
+    "checkboxz": false
+  },
+  "cidades9": "Cidade 9",
+  "cidade2": "amegakure no sato"
+}
